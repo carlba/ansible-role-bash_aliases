@@ -7,5 +7,5 @@
     mode: 0644
     line: 'alias {{ item.alias }}="{{ item.command }}"'
     regexp: "^alias {{ item.alias }}="
-  with_items: bash_aliases
+  with_items: '{{ bash_aliases }}'
   when: bash_aliases != false
