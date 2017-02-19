@@ -3,7 +3,7 @@
 dependencies: []
 
 galaxy_info:
-  author: igor_mukhin
+  author: carl_backstrom
   description: Set aliases in ~/.bash_aliases
   license: "MIT"
   min_ansible_version: 1.8
